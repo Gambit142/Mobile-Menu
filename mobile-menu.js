@@ -19,7 +19,7 @@ portfolioLinkDiv.className = 'menu-item';
 anchorTag = document.createElement('a');
 anchorTag.className = 'nav-menu-link';
 anchorTag.textContent = 'Portfolio';
-anchorTag.setAttribute('href', '#projects');
+anchorTag.setAttribute('href', '#');
 portfolioLinkDiv.appendChild(anchorTag);
 mobileMenuDiv.appendChild(portfolioLinkDiv);
 // Create about link section and attach to the mobile menu div
@@ -28,7 +28,7 @@ aboutDiv.className = 'menu-item';
 anchorTag = document.createElement('a');
 anchorTag.className = 'nav-menu-link';
 anchorTag.textContent = 'About';
-anchorTag.setAttribute('href', '#about-me');
+anchorTag.setAttribute('href', '#');
 aboutDiv.appendChild(anchorTag);
 mobileMenuDiv.appendChild(aboutDiv);
 // Create contact link section and attach to the mobile menu div
@@ -37,7 +37,7 @@ contactDiv.className = 'menu-item';
 anchorTag = document.createElement('a');
 anchorTag.className = 'nav-menu-link';
 anchorTag.textContent = 'Contact';
-anchorTag.setAttribute('href', '#contact');
+anchorTag.setAttribute('href', '#');
 contactDiv.appendChild(anchorTag);
 mobileMenuDiv.appendChild(contactDiv);
 const menuButton = document.querySelector('.menu-bars');
