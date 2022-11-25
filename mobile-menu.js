@@ -57,3 +57,9 @@ function closePop() {
 }
 
 closeButton.addEventListener('click', closePop);
+
+const anchorTagLinks = document.querySelectorAll('.nav-menu-link');
+
+anchorTagLinks.forEach((link) => {
+  link.addEventListener('click', closePop);
+});
