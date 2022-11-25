@@ -48,3 +48,12 @@ function display() {
 }
 
 menuButton.addEventListener('click', display);
+
+const closeButton = document.querySelector('#close-button');
+
+function closePop() {
+  mobileMenuDiv.classList.remove('show');
+  menuButton.style.display = 'block';
+}
+
+closeButton.addEventListener('click', closePop);
