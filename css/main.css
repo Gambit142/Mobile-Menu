@@ -27,7 +27,8 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav,
+#desktop-nav ul {
   display: none;
 }
 
@@ -414,6 +415,34 @@ textarea {
   filter:
     invert(67%) sepia(46%) saturate(986%) hue-rotate(179deg)
     brightness(92%) contrast(82%);
+}
+
+.mobile-menu-hidden {
+  display: none;
+  height: 100vh;
+}
+
+.show {
+  display: block;
+}
+
+.closing-icon-item {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-item {
+  padding: 24px 0 15px 16px;
+  border-bottom: 1px solid #6f6c6b;
+}
+
+.nav-menu-link {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
 }
 
 @media all and (min-width: 720px) {
